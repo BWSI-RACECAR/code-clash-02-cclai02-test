@@ -16,11 +16,9 @@ def main():
         array[x] = int(array[x])
     target = int(input())
 
-    print(array)
-    print(target)
-
     tc1 = Solution()
-    print(tc1.two_numbers(array, target))
+    ans = tc1.two_numbers(array, target)
+    print(ans)
 
 if __name__ == "__main__":
     main()
