@@ -1,5 +1,5 @@
 class Solution:
-    def two_numbers(ary,target):
+    def two_numbers(self, ary,target):
         # type ary: list
         # type target: int
         # return type: list or bool
