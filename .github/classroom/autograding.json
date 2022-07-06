@@ -5,7 +5,7 @@
       "setup": "",
       "run": "python3 speedometer.py ",
       "input": "1 2 3 4 5\r\n6",
-      "output": "[0,4]",
+      "output": "[0, 4]",
       "comparison": "included",
       "timeout": 1,
       "points": 10
