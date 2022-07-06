@@ -8,7 +8,17 @@
       "output": "[0, 4]",
       "comparison": "included",
       "timeout": 1,
-      "points": 10
+      "points": 12
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 speedometer.py",
+      "input": "2 7 11 15\r\n18",
+      "output": "[1, 2]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 12
     }
   ]
 }
