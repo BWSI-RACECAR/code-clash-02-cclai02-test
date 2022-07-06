@@ -1,5 +1,5 @@
 class Solution:
-    def two_numbers(self, ary,target):
+    def two_numbers(self, ary, target):
         # type ary: list
         # type target: int
         # return type: list or bool
@@ -11,7 +11,7 @@ class Solution:
         return False
 
 def main():
-    array = input()
+    array = input().split(" ")
     target = input()
     tc1 = Solution()
 
