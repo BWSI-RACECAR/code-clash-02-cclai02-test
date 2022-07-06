@@ -12,9 +12,14 @@ class Solution:
 
 def main():
     array = input().split(" ")
-    target = input()
-    tc1 = Solution()
+    for x in range (0, len(array)):
+        array[x] = int(array[x])
+    target = int(input())
 
+    print(array)
+    print(target)
+
+    tc1 = Solution()
     print(tc1.two_numbers(array, target))
 
 if __name__ == "__main__":
